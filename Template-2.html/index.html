@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="card mb-3" style="max-width: 100px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/birds-9324370_640.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Bird is beautiful than animals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form action="/submit-form" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+        
+        <button type="submit">Send Message</button>
+      </form>
+</body>
+</html>
