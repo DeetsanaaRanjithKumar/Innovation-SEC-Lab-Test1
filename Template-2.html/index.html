@@ -1,37 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Complete Layout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
 
-    <div class="card mb-3" style="max-width: 100px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./images/birds-9324370_640.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="card-text">Bird is beautiful than animals.</p>
-            </div>
-          </div>
-        </div>
+    <!-- Top Black Bar -->
+<div class="top-black-bar">
+  <h6 class="top-title">DOGS</h6>
+  <img src="./images/shih-tzu-990986_640.jpg" alt="Cute Dog" class="top-dog-img" />
+</div>
+
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">GRAX</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Settings box -->
+  <div class="settings-container">
+    <i class="fas fa-cog"></i>
+  </div>
+
+  <!-- About Me Section -->
+  <section class="about-section">
+    <div class="about-image">
+      <img src="./images/kid-5718703_640.jpg" alt="Profile Picture" />
+    </div>
+
+    <div class="about-text">
+      <h5>DOGS</h5>
+      <p>Dogs are known for their loyalty and companionship, making them a popular choice as pets.</p>
+      <p>They are also known for their intelligence and ability to form strong bonds with their human families.</p>
+
+      <div class="arrows">
+        &gt;&gt; Web Development &nbsp;&nbsp; &gt;&gt; Java<br />
+        &gt;&gt; HTML &nbsp;&nbsp; &gt;&gt; Python
       </div>
 
-      <form action="/submit-form" method="POST">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required /><br /><br />
-        
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
-        
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
-        
-        <button type="submit">Send Message</button>
-      </form>
+      <a href="#" class="download-btn">Download</a>
+    </div>
+  </section>
+
+  <!-- Six Images Section -->
+  <div class="image-container">
+    <div class="image-grid">
+      <div class="image-box">
+        <img src="./images/dog-5449489_640.jpg" alt="Golden Retriever Puppy" />
+        <div class="caption">So puppin’ cute.</div>
+      </div>
+      <div class="image-box">
+        <img src="./images/dog-6977210_640.jpg" alt="Small Dog Close-up" />
+        <div class="caption">Short, but oh-so-sweet.</div>
+      </div>
+      <div class="image-box">
+        <img src="./images/dog-7330712_640.jpg" alt="Cute Dog" />
+        <div class="caption">My furever friend</div>
+      </div>
+      <div class="image-box">
+        <img src="./images/dog-8008483_640.jpg" alt="Happy Dog" />
+        <div class="caption">Cuteness unleashed!</div>
+      </div>
+      <div class="image-box">
+        <img src="./images/fetch-4957501_640.jpg" alt="Dog Playing Fetch" />
+        <div class="caption">Love at first bark.</div>
+      </div>
+      <div class="image-box">
+        <img src="./images/shepherd-dog-4357790_640.jpg" alt="Shepherd Dog" />
+        <div class="caption">Peace. Love. Dogs.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Text and Bar Graph Section -->
+  <section class="info-graph-section">
+    <div class="info-text">
+      <h3>Dog Popularity Statistics</h3>
+      <p>Dogs are among the most beloved pets around the world. Here's a comparison of popularity across different dog breeds based on survey data.</p>
+      <p>Golden Retrievers and Labradors are consistently ranked among the top due to their friendly nature and intelligence.</p>
+    </div>
+
+    <div class="bar-graph">
+      <div class="bar">
+        <label>Golden Retriever</label>
+        <div class="bar-fill" style="width: 90%;">90%</div>
+      </div>
+      <div class="bar">
+        <label>Labrador</label>
+        <div class="bar-fill" style="width: 85%;">85%</div>
+      </div>
+      <div class="bar">
+        <label>Beagle</label>
+        <div class="bar-fill" style="width: 70%;">70%</div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Latest News Section -->
+<section class="latest-news-section">
+  <h5 class="section-title">LATEST NEWS</h5>
+  <div class="news-cards">
+    <div class="news-card">
+      <img src="./images/kid-5718703_640.jpg" alt="News 1" />
+      <h4>Dog Care Tips</h4>
+      <p>Daily routines to ensure your dog stays active, healthy, and happy.</p>
+    </div>
+    <div class="news-card">
+      <img src="./images/girl-5623231_640.jpg" alt="News 2" />
+      <h4>Training Basics</h4>
+      <p>Simple commands and positive reinforcement that really work.</p>
+    </div>
+    <div class="news-card">
+      <img src="./images/dog-7783865_640.jpg" alt="News 3" />
+      <h4>New Breeds</h4>
+      <p>Check out the newest dog breeds recognized this year.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <div class="contact-left">
+    <h3>Get In Touch</h3>
+    <ul class="contact-info">
+      <li><i class="fas fa-envelope"></i> Address</li>
+      <li><i class="fas fa-phone"></i> Phone </li>
+      <li><i class="fas fa-globe"></i> Website </li>
+      <li><i class="fab fa-twitter"></i> Twitter</li>
+      <li><i class="fab fa-facebook"></i> Facebook</li>
+    </ul>
+  </div>
+
+  <div class="contact-right">
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-row">
+  <div class="footer-left">GRAX</div>
+  <div class="footer-center">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+  </div>
+  <div class="footer-right">Company 2025 My Marketing</div>
+</footer>
+
+
+
 </body>
 </html>
